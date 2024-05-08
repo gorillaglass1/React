@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.AppBar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.MenuBar {
+  width: 210px;
+  height: 140px;
+  display: inline-block;
+  text-align: center;
+}
+
+.MenuBar img{
+  width: 100%;
+  height: 100%;
+}
+
+.MenuBar img {
+  display: block;
+}
+
+.Cart {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  border: 3px solid darkgray;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.selectButton {
+  border: 5px solid yellow;
+  border-radius: 20px;
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.image {
+  width: 70%;
+  height: auto;
+}
